@@ -5,7 +5,7 @@
 
 .. title:: Introduction to FireWorks (workflow software)
 
-.. image:: _static/FireWorks_logo.png
+.. image:: static/FireWorks_logo.png
    :width: 300 px
    :alt: FireWorks workflow software
 
@@ -67,7 +67,7 @@ There are essentially just two components of a FireWorks installation:
 
 The basic infrastructure looks like this:
 
-.. image:: _static/fw_model.png
+.. image:: static/fw_model.png
    :width: 400px
    :align: center
    :alt: FireWorks Model
@@ -89,7 +89,7 @@ Workflows in FireWorks are made up of three main components:
 
 Between FireWorks, you can return a **FWAction** that can store data or modify the Workflow depending on the output (e.g., pass data to the next step, cancel the remaining parts of the Workflow, or even add new FireWorks that are defined within the object).
 
-.. image:: _static/multiple_fw.png
+.. image:: static/multiple_fw.png
    :width: 400px
    :align: center
    :alt: FireWorks Workflow

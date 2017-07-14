@@ -83,7 +83,7 @@ A workflow that passes data
 ===========================
 Apart from job info, other information can also be passed between Fireworks in a Workflow. Let's imagine a workflow in which the first step adds the numbers 1 + 1, and the second step adds the number 10 to the result of the first step. The second step doesn't know in advance what the result of the first step will be; the first step must pass its output to the second step after it completes. The final result should be 10 + (1 + 1) = 12. Visually, the workflow looks like:
 
-.. image:: _static/addmod_wf.png
+.. image:: static/addmod_wf.png
    :width: 200px
    :align: center
    :alt: Add and Modify WF
@@ -149,7 +149,7 @@ Instead, we will start with a single Firework that contains the start of the seq
 
 A diagram of our the first two steps of operation of our Firework looks like this:
 
-.. image:: _static/fibnum_wf.png
+.. image:: static/fibnum_wf.png
    :width: 200px
    :align: center
    :alt: Fibonacci Number Workflow

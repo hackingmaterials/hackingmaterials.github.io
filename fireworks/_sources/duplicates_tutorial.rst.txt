@@ -21,7 +21,7 @@ A trivial duplicate might occur if two users submit the same workflow to the Fir
 
 #. Look inside the file ``wf_12.yaml``. This contains a workflow in which the first step adds the numbers 1+1, and the second step adds the number 2 to the result. Visually, the workflow looks like this:
 
-    .. figure:: _static/wf_12.png
+    .. figure:: static/wf_12.png
       :width: 200px
       :align: center
       :alt: Add and Modify WF
@@ -84,7 +84,7 @@ One nice feature of FireWorks' built-in duplicate detection is that it operates 
 
 #. As before, we should have run two FireWorks in agreement with our desired workflow. Now, let's consider a situation where we insert a three-step workflow, but **two of the steps are duplicated from before**:
 
-    .. figure:: _static/wf_13.png
+    .. figure:: static/wf_13.png
       :width: 200px
       :align: center
       :alt: Add and Modify WF

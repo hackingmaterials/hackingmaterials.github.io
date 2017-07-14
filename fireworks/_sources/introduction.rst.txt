@@ -46,7 +46,7 @@ Add a Firework to the LaunchPad
 
 A Firework contains a list of computing tasks (Firetasks) to be performed. For this tutorial, we will use a Firework that consists of only a single step. We'll tackle more complex workflows in other tutorials. Our workflow consisting of one Firework and one Firetask thus looks like this:
 
-.. image:: _static/single_fw.png
+.. image:: static/single_fw.png
    :width: 200px
    :align: center
    :alt: Single Firework
