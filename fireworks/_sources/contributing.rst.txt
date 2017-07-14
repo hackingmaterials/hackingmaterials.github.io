@@ -6,7 +6,7 @@ FireWorks is an open-source codebase, and one if its advantages is the possibili
 
 We ask that all potential collaborators review our contribution criteria. You might also contact us directly at |Mail| to let us know what you're planning to contribute; we can discuss your plans and how to integrate your code for public release.
 
-.. |Mail| image:: static/mail.png
+.. |Mail| image:: _static/mail.png
    :alt: developer contact
    :align: bottom
 

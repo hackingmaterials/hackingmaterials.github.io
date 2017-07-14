@@ -4,13 +4,13 @@ Running FireWorks in "offline" mode on firewalled systems
 
 FireWorks typically requires a network connection between the LaunchPad and the FireWorker to operate. The network connection allows the FireWorker to check out a job from the LaunchPad, and subsequently update the server with the status of the job:
 
-.. image:: static/fw_offline1.png
+.. image:: _static/fw_offline1.png
    :alt: typical FW operation
    :align: center
 
 Unfortunately, many computing centers employ an internal system of "compute nodes" that cannot access an outside network. The FireWorker is thus blocked from checking out jobs from the LaunchPad (or updating back the LaunchPad with the job status). There exists no way for the compute node to communicate with the LaunchPad. However, if the *login* node to the computing center can access the network, we can design a system whereby the login node handles all network connections and communicates with the compute nodes by serializing information as files:
 
-.. image:: static/fw_offline2.png
+.. image:: _static/fw_offline2.png
    :alt: offline FW operation
    :align: center
 

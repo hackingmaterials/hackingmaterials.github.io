@@ -26,7 +26,7 @@ Imagine that each of your workloads involves 6 computing steps. There are many w
 
 A simplified version of the problem with 2 computing steps is shown below:
 
-.. image:: static/AorB.png
+.. image:: _static/AorB.png
    :width: 400px
    :align: center
    :alt: Which solution is better?

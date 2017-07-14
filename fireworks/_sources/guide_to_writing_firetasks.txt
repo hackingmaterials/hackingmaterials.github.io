@@ -119,7 +119,7 @@ The FWAction object
 
 A FireTask (or a function called by :doc:`PyTask <pytask>`) can return a *FWAction* object that can perform many powerful actions. Note that the *FWAction* is stored in the FW database after execution, so you can always go back and see what actions were returned by different FireTasks. A diagram of the different FWActions is below:
 
-.. image:: static/fwactions.png
+.. image:: _static/fwactions.png
    :alt: FW actions
    :align: center
 

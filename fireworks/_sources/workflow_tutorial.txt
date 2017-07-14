@@ -16,7 +16,7 @@ The simplest workflow consists of two jobs without any data dependency between t
 
 For example, we might want print the first two lines of Hamlet's soliloquy to the standard out (e.g., your Terminal window). We can represent the workflow with the following diagram:
 
-.. image:: static/hamlet_wf.png
+.. image:: _static/hamlet_wf.png
    :width: 200px
    :align: center
    :alt: Hamlet WF
@@ -79,7 +79,7 @@ A Diamond Workflow
 
 Let's continue with a very similar example, but make the workflow a little more intricate. We will now print the org chart of a company. Of course, CEOs should be printed before managers, and managers before interns:
 
-.. image:: static/org_wf.png
+.. image:: _static/org_wf.png
    :width: 400px
    :align: center
    :alt: Org chart WF

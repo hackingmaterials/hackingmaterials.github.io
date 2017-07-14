@@ -34,7 +34,7 @@ Let's create a Firework that:
 
 The three-step Firework thus looks like this:
 
-.. image:: static/templatetask.png
+.. image:: _static/templatetask.png
    :width: 300px
    :align: center
    :alt: Template Firework
@@ -118,7 +118,7 @@ How FireWorks bootstraps a job
 
 Before diving into an example of custom FireTask, it is worth understanding how FireWorks is bootstrapping jobs based on your specification. The basic process looks like this:
 
-.. image:: static/spec_sketch.png
+.. image:: _static/spec_sketch.png
    :width: 500px
    :align: center
    :alt: FireWorks Bootstrap
