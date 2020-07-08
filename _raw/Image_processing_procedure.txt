@@ -1,6 +1,0 @@
-1. Basic adjustments in IPhoto
-2. Camerabag —> Color Adjustment #7
-3. Camerabag —> Lightleak
-4. Resize to 1200px in Affinity Photo using Lanczlos (separable) algorithm
-5. Unsharp mask with radius 0.5, amount 1.0
-6. fix blemishes with snapheal
