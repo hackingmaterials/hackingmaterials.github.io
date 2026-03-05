@@ -655,12 +655,24 @@ grid-template-columns:1fr;
     align-items: center;
 }
 
-.publication-logo {
-    width: 200px;
-    height: auto;
-    transition: transform 0.2s;
+.publication-logos{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:20px;
 }
 
+.publication-logo{
+    width:180px !important;
+    max-width:180px !important;
+    height:auto !important;
+}
 .publication-logo:hover {
     transform: scale(1.05);
+}
+
+@media (max-width:768px){
+    .publication-logos img{
+        max-width:10px;
+    }
 }
