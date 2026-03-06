@@ -457,3 +457,222 @@ letter-spacing: 0px;
 	font-weight:700;
 	text-decoration:none;
 	}
+
+.bluesky-scroll{
+max-height:600px;
+overflow-y:auto;
+}
+
+.about_group_photo{
+width:100%;
+max-width:650px;
+margin:20px auto;
+display:block;
+border-radius:8px;
+}
+
+.team-pi{
+display:flex;
+justify-content:center;
+margin-bottom:30px;
+}
+
+.team-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+justify-items:center;
+}
+
+.team-card{
+text-align:center;
+max-width:260px;
+}
+
+.team-photo{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+.team-photo-pi{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:15px;
+}
+
+.alumni-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px 30px;   /* row gap 20px, column gap 30px */
+justify-items:center;
+margin-top:30px;
+}
+
+.alumni-entry{
+margin-bottom:30px;
+}
+
+.alumni-photo{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:2px;
+}
+
+@media (max-width:992px){
+
+.team-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media (max-width:600px){
+
+.team-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+@media (max-width:992px){
+
+.alumni-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media (max-width:600px){
+
+.alumni-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+.social-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-card {
+    background: #f3f3f3;
+    padding: 10px 12px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.social-card a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+	/* font-weight: bold; */
+}
+
+.social-card a:hover {
+    color: #016fde;
+}
+
+.social-image {
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.social-logo {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.bluesky-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+
+.bluesky-link:hover {
+    color: #016fde;
+}
+
+.explore-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.single_service {
+    text-align: center;
+}
+
+.single_service a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s;
+}
+
+.single_service a:hover {
+    color: #016fde;
+}
+
+.single_service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .explore-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+}
+
+.publication-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 50px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.publication-logos{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:20px;
+}
+
+.publication-logo{
+    width:180px !important;
+    max-width:180px !important;
+    height:auto !important;
+}
+.publication-logo:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width:768px){
+    .publication-logos img{
+        max-width:10px;
+    }
+}
