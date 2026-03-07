@@ -1,0 +1,56 @@
+[
+{
+"name":"Anubhav Jain",
+"title":"Group Lead",
+"photo":"team_anubhavJ.jpg",
+"website":"https://computron.github.io",
+"linkedin":"https://www.linkedin.com/in/anubhav-jain-a1614636b/",
+"github":"https://github.com/computron",
+"scholar":"https://scholar.google.com/citations?user=IKUUbNwAAAAJ&hl=en&oi=ao",
+"youtube":"https://www.youtube.com/@AtomsToMaterials"
+},
+
+
+{
+"name":"Baojie Li",
+"title":"Postdoctoral scholar – Data mining of solar PV data sets",
+"photo":"team_baojieL.jpg",
+"linkedin":"https://www.linkedin.com/in/%E4%BF%9D%E6%9D%B0-%E6%9D%8E-a3a256aa/?locale=en-US",
+"github":"https://github.com/lbj2011",
+"scholar":"https://scholar.google.com/citations?user=GMcdsyEAAAAJ&hl=fr"
+},
+
+{
+"name":"Zekun Chen",
+"title":"Postdoctoral scholar",
+"photo":"team_zekunC.png",
+"linkedin":"https://www.linkedin.com/in/zekun-chen-bill-73b509126/",
+"github":"https://github.com/ZKC19940412",
+"scholar":"https://scholar.google.com/citations?user=_lL3ZncAAAAJ&hl=en"
+},
+
+{
+"name":"Hrushikesh Sahasrabuddhe",
+"title":"Graduate Student Researcher – Materials machine learning",
+"photo":"team_hrushikeshS.jpg",
+"github":"https://github.com/hrushikesh-s",
+"scholar":"https://scholar.google.com/citations?user=Ukq_tbUAAAAJ&hl=en"
+},
+
+{
+"name":"Alison Rhoads",
+"title":"Undergraduate Researcher",
+"photo":"team_alisonR.jpg",
+"linkedin":"https://www.linkedin.com/in/alison-rhoads-7251621b6/",
+"scholar": "https://scholar.google.com/citations?user=rHilJjIAAAAJ&hl=en"
+},
+
+{
+"name":"Wesley Chen",
+"title":"Undergraduate Researcher",
+"photo":"team_wesleyC.jpg",
+"linkedin":"https://www.linkedin.com/in/wesley-chen-126467217/",
+"scholar": "https://scholar.google.com/citations?user=qan06sUAAAAJ&hl=en&oi=ao",
+"github": "https://github.com/wesleychen-github"
+}
+]

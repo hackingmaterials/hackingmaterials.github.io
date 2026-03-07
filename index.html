@@ -43,6 +43,7 @@
 
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="components/bluesky-feed.css">
 
     <!-- Responsive CSS -->
     <link href="css/responsive.css" rel="stylesheet">
@@ -82,10 +83,10 @@
 	                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	                  <ul class="nav navbar-nav navbar-right">
 	                    <li><a href="index.html#ABOUTUS">About Us</a></li>
+                        <li><a href="index.html#PUBLICATION">Publication</a></li>
 	                    <li><a href="index.html#TEAM">Team</a></li>
 	                    <li><a href="index.html#ALUMNI">Alumni</a></li>
-	                    <li><a href="index.html#JOIN">Join</a></li>
-	                    <li><a href="index.html#MORE">Slides and more</a></li>
+	                    <li><a href="index.html#MORE">more</a></li>
 	                  </ul>
 	                </div><!-- /.navbar-collapse -->
 	              </div><!-- /.container -->
@@ -107,715 +108,151 @@
 
     <section id="ABOUTUS">
         <div class="container">
-			<div class="col-md-8 text-center">
-				<div class="row">
-					<div class="about_title wow fadeInUp animated">
-						<h2>About Us</h2>
-						<img src="media/shape.png" alt="">
-					</div>
-					<div class="col-md-10 col-md-offset-1 wow fadeInUp animated">
-                    	<p class="about_us_p">Led by Dr. Anubhav Jain and located in Berkeley, California (just outside of San Francisco), the Hacking Materials group at LBNL leverages advances in theoretical materials science, supercomputing, and informatics to understand and design new materials for renewable energy applications. We work closely with experimental groups to bring materials from the computer to the laboratory. We currently work mainly on thermoelectric materials, thermal storage materials, and data analytics for solar installations. We also apply natural language processing techniques to extract information from millions of articles in the scientific literature. Our current projects include:</p>
-                    	<ul>
-                    	<li> The Materials Project, an effort to calculate the properties of all known inorganic materials and beyond</li>
-                    	<li> Applying natural language processing techniques to the extraction of knowledge from scientific texts</li>
-                    	<li> Perform computational screening of new materials for electrochemical water purification.</li>
-                    	<li> Developing new methods to calculate electron and thermal transport of materials.</li>
-                    	<li> Image analysis of electroluminescence images of solar modules and cells to detect cracks</li>
-                    	<li> Analyzing time-series and geospatial data sets of solar installations</li>
-                    	<li> Developing open-source frameworks for machine learning composition-structure-property relationships in materials</li>
-                    	<li> Developing codes to analyze the crystal structures of inorganic compounds</li>
-                    	</ul>
-                	</div>
-            	</div>
-            	<div class="row">
-					<div class="work_title wow fadeInUp animated">
-						<h1>Publications</h1>
-						<img src="media/shape.png" alt="">
-						<p> To browse our publications, please visit <a href="https://scholar.google.com/citations?user=IKUUbNwAAAAJ&hl=en&oi=ao">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Anubhav_Jain4/contributions">ResearchGate</a>.
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="row" style="margin-top: 45px">
-					<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/jainpapers" data-widget-id="739330157521969152">Tweets by @jainpapers</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-				</div>
-			</div>
-        </div>
-    </section>
-    	
-    <section id="TEAM">
-        <div class="container">
-        	<div class="row  wow fadeInUp animated">
+            <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="about_title">
-                        <h2>Team</h2>
+                    <div class="about_title wow fadeInUp animated">
+                        <h2>About Us</h2>
                         <img src="media/shape.png" alt="">
                     </div>
+                    <div class="col-md-10 col-md-offset-1 wow fadeInUp animated">
+                        <p class="about_us_p">Led by Dr. Anubhav Jain and based in Berkeley, California (near San Francisco), the Hacking Materials group builds and applies theory, high performance computing, and AI to accelerate the discovery, design, and synthesis of energy-relevant materials. We develop community data and software infrastructure, collaborate closely with experimental and autonomous labs to translate computational hypotheses into synthesized materials and validated measurements, and use large-scale literature and database mining to guide data-driven research. Current research areas include:</p>
+                        <ul>
+                            <li>The Materials Project - open-access computed materials property data and analysis tools that support data-driven materials design</li>
+                            <li>FORUM-AI - an open-source, agentic AI platform for materials science that orchestrates reasoning agents across literature, databases, large-scale simulations, and robotic experiments</li>
+                            <li>Data-driven synthesis science - combining NLP-driven extraction of synthesis knowledge with modeling, characterization, and autonomous experimentation to learn and suggest inorganic synthesis pathways</li>
+                            <li>DuraMAT data and analytics - PV module durability and degradation research with an emphasis onreliability-focused data science</li>
+                            <li>Open-source software for high-throughput materials workflows and crystal-structure analysis (for example pymatgen, FireWorks, atomate2, and related tools)</li>
+                        </ul>
+                        <img src="media/group_photo.jpg" class="about_group_photo">
+                        <figcaption>Members of the Hacking Materials group at LBNL (2023)</figcaption>
+                    </div>
                 </div>
             </div>
-            <div class="row wow fadeInUp animated">
-                <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center ">
-                    <div class="team-member">
-                        <center><img src="media/team_anubhavJ.jpg" class="img-responsive img-circle" alt=""></center>
-                        <h4>Anubhav Jain</h4>
-                        <p class="text-muted">Group Lead</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://computron.github.io"><i class="fa fa-user"></i></a>
-                            </li>
-                            <li><a href="https://github.com/computron"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=IKUUbNwAAAAJ&hl=en&oi=ao"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="about_title wow fadeInUp animated text-center">
+                        <h2>Latest Updates & Opportunities</h2>
+                        <img src="media/shape.png" alt="">
                     </div>
-                </div>
-                <div class="col-md-4 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center ">
-                    <div class="team-member">
-                        <center><img src="media/team_jinwonC.jpg" class="img-responsive img-circle" alt=""></center>
-                        <h4>Jinwon Cho</h4>
-                        <p class="text-muted">Postdoctoral scholar<br />Electrochemical Water Treatment</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/jinwon-c-16552732/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=rj28_FUAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                    </div>     
-                </div>
-                
-                <div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center ">
-                    <div class="team-member">
-                        <center><img src="media/team_duoW.jpg" class="img-responsive img-circle" alt=""></center>
-                        <h4>Duo Wang</h4>
-                        <p class="text-muted">Postdoctoral Scholar<br />Electrochemical water treatment</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/itsshawnzhang/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/itsshawnzhang"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=HKpRhZ8AAAAJ&hl=en&oi=sra"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_olympiaD.jpg" class="img-responsive img-circle" alt=""></center>
-                        <h4>Olympia Dartsi</h4>
-                        <p class="text-muted">Postdoctoral scholar<br />Natural language processing</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://odartsi.github.io"><i class="fa fa-user"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/drolympiadartsi/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/odartsi"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57201718184&source=sd-apx&adobe_mc=MCMID%3D39276312187619410674360501002631617065%7CMCORGID%3D4D6368F454EC41940A4C98A6%2540AdobeOrg%7CTS%3D1715112250"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
-                <div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_baojieL.jpg" class="img-responsive img-circle" alt=""></center>
-                        <h4>Baojie Li</h4>
-                        <p class="text-muted">Postdoctoral scholar<br />Data mining of solar PV data sets</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/lbj2011"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=GMcdsyEAAAAJ&hl=fr"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
+                    <div class="col-md-10 col-md-offset-1 wow fadeInUp animated" style="margin-top: 20px;">
+                        <p class="about_us_p">All job opportunities will be posted on <a href="https://bsky.app/profile/anubhavjain.bsky.social" target="_blank">Bluesky</a>, <a href="https://x.com/jainpapers" target="_blank">X</a>, and <a href="https://www.linkedin.com/in/anubhav-jain-a1614636b/" target="_blank">LinkedIn</a>. Please check there if you are interested in job opportunities!</p>
+                        <p class="about_us_p">If you are an <em>admitted</em> UC Berkeley PhD candidate, please reach out directly regarding graduate researcher positions. Please note that we cannot host PhD students other than admitted students to UC Berkeley.</p>
+                        <p class="about_us_p">If you're curious about what it is like to work in our group, please review our <a href="https://hackingmaterials.gitbook.io/hm-handbook/" target="_blank">group handbook</a>.</p>
+                        <p class="about_us_p">Anubhav hosts tutorials, lectures, and other materials online on <a href="https://www.youtube.com/@AtomsToMaterials" target="_blank">YouTube</a>.</p>
                     </div>
-                </div>
-                
-                <div class="col-md-4 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center">
-                    <div class="team-member">
-                       <center><img src="media/team_sanghoonL.jpg" class="img-responsive img-circle" alt=""></center>
-                       <h4>Sanghoon Lee</h4>
-                        <p class="text-muted">Graduate Student Researcher<br />Natural Language Processing</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/sanghoon-lee-b5a420149/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/slee-lab"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
+
+                    <div class="latest-updates-bluesky text-center">
+                        <a class="bluesky-link" href="https://bsky.app/profile/anubhavjain.bsky.social" target="_blank">
+                            <img src="media/social_bluesky.svg" class="social-logo">
+                            <span>Bluesky @anubhavjain</span>
+                        </a>
+                        <div class="bluesky-scroll bluesky-scroll-centered">
+                            <div class="feed">
+                                <div id="feed"></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center ">
-                    <div class="team-member">
-                        <center><img src="media/team_hrushikeshS.jpg" class="img-responsive img-circle" alt=""></center>
-                        <h4>Hrushikesh Sahasrabuddhe</h4>
-                        <p class="text-muted">Graduate Student Researcher<br />Materials machine learning</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/hrushikesh-s"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=Ukq_tbUAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
+                    <div class="latest-updates-cards">
+                        <div class="social-card">
+                            <a href="https://hackingmaterials.gitbook.io/hm-handbook/" target="_blank">
+                                <span>Group Handbook</span>
+                            </a>
+                            <a href="https://hackingmaterials.gitbook.io/hm-handbook/" target="_blank">
+                                <img src="media/social_handbook.png" class="social-image">
+                            </a>
+                        </div>
+                        <div class="social-card">
+                            <a href="https://www.youtube.com/@AtomsToMaterials" target="_blank">
+                                <span>YouTube Channel</span>
+                            </a>
+                            <a href="https://www.youtube.com/@AtomsToMaterials" target="_blank">
+                                <img src="media/social_youtube.png" class="social-image">
+                            </a>
+                        </div>
                     </div>
+
                 </div>
-                
-                <div class="col-md-4 col-md-offset-1 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_viktoriiaB.jpg" class="img-responsive img-circle" alt=""></center>
-                        <h4>Viktoriia Baibakova</h4>
-                        <p class="text-muted">Graduate Student Researcher<br />Natural Language Processing</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/viktoriia-baibakova-b2bba9231"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/ViktoriiaBaib"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://www.researchgate.net/profile/Viktoriia_Baibakova"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 text-center ">
-                    <div class="team-member">
-                        <center><img src="media/team_xinC.jpg" class="img-responsive img-circle" alt=""></center>
-                        <h4>Xin Chen</h4>
-                        <p class="text-muted">Graduate Student Researcher<br />Image analysis</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/X-Chen97"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?hl=en&user=jsF7U6IAAAAJ"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </section>
+    <script src="components/bluesky-feed.js"></script>
+
+    <section id="Publication">
+        <div class="container">
+
+            <div class="row wow fadeInUp animated">
+                <div class="col-md-12 text-center">
+
+                    <div class="about_title">
+                        <h2>Publications</h2>
+                        <img src="media/shape.png" alt="">
+                    </div>
+
+                    <h4>To browse our publications, please visit <a href="https://scholar.google.com/citations?user=IKUUbNwAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar</a> or <a href="https://www.researchgate.net/profile/Anubhav_Jain4/contributions" target="_blank">ResearchGate</a>:</h4>
+
+                    <div class="publication-grid">
+
+                        <a href="https://scholar.google.com/citations?user=IKUUbNwAAAAJ&hl=en&oi=ao" target="_blank">
+                            <img src="media/publication_google.png" class="publication-logo">
+                        </a>
+
+                        <a href="https://www.researchgate.net/profile/Anubhav_Jain4/contributions" target="_blank">
+                            <img src="media/publication_researchgate.png" class="publication-logo">
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="TEAM">
+    <div class="container">
+
+    <div class="row wow fadeInUp animated">
+    <div class="col-md-12 text-center">
+    <div class="about_title">
+    <h2>Team</h2>
+    <img src="media/shape.png">
+    </div>
+    </div>
+    </div>
+
+    <div class="team-pi" id="team-pi"></div>
+
+    <div class="team-grid" id="team-container"></div>
+
+    </div>
+    </section>
+    <script src="components/team.js"></script>
     
     <section id="ALUMNI">
-        <div class="container">
-        	<div class="row  wow fadeInUp animated">
-                <div class="col-md-12 text-center">
-                    <div class="about_title">
-                        <h2>Alumni</h2>
-                        <img src="media/shape.png" alt="">
-                    </div>
-                </div>
-            </div>
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_saurabhB.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Saurabh Bajaj</h4>
-                        <p class="text-muted">Postdoc<br />&#8594;Data Engineer, Citrine Informatics<br /></p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/saurabh-bajaj-12426619"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/saurabh02"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=jpoJY4gAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_jasonF.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Jason Frost</h4>
-                        <p class="text-muted">Undergraduate<br />&#8594;Synapse Energy Economics</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/jason-frost-309164b6"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/jhfrost314"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
+    <div class="container">
 
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_sayanR.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Sayan Rowchowdhury</h4>
-                        <p class="text-muted">Undergraduate<br />&#8594;PhD candidate, Duke University</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/sayan-roychowdhury-87a3a3ba"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/sayanroyc"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_michaelK.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Michael Kim</h4>
-                        <p class="text-muted">Undergraduate<br />&#8594;(continuing studies)</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/michael-kim-383143bb"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/MikeSphx"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
+    <div class="row wow fadeInUp animated">
+    <div class="col-md-12 text-center">
+    <div class="about_title">
+    <h2>Alumni</h2>
+    <img src="media/shape.png">
+    </div>
+    </div>
+    </div>
 
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_julienB.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Julien  Brenneck</h4>
-                        <p class="text-muted">Undergraduate<br />&#8594;(continuing studies)</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/julien-brenneck-66bb4a128"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/spacedome"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
+    <div class="alumni-grid" id="alumni-container"></div>
 
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_nilsZ.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Nils Zimmermann</h4>
-                        <p class="text-muted">Postdoc<br />&#8594;(parent)</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/nils-zimmermann-22656372"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="http://nisseshem.de"><i class="fa fa-user"></i></a>
-                            </li>
-                            <li><a href="https://github.com/nisse3000"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=S_NflkQAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_benE.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Ben Ellis</h4>
-                        <p class="text-muted">Postdoc<br />&#8594;Data Scientist, Sauce Labs</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/benjamin-ellis-phd-9238841b/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/bhellis725"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com.au/citations?user=wEWLAzgAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_hillaryP.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Hillary Pan</h4>
-                        <p class="text-muted">Undergraduate<br />&#8594;PhD candidate, Cornell University</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/hillarypan"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_alirezaF.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Alireza Faghaninia</h4>
-                        <p class="text-muted">Postdoc<br />&#8594;Data Scientist, Credit Karma</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/alireza-faghaninia-79804981"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/albalu"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=rmcAU7sAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_danielD.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Daniel Dopp</h4>
-                        <p class="text-muted">Undergraduate<br />&#8594;(continuing studies)</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/daniel-dopp-90447ab7/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/hackingmaterials/matminer/pulls/Doppe1g4nger"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_peiyuanY.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Peiyuan Yu</h4>
-                        <p class="text-muted">Postdoc<br />&#8594;Professor, SUSTech Shenzhen</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/peiyuan-yu-b7842086/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/peiyuan-yu"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=elGYBSwAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-
-				<div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_samyC.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Samy Cherfaoui</h4>
-                        <p class="text-muted">Undergraduate<br />&#8594;(continuing <br /> studies)</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://samysspace.github.io"><i class="fa fa-user"></i></a>
-                            </li>
-                            <li><a href="https://github.com/samysspace"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                				
-				<div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_evanS.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Evan Spotte-Smith</h4>
-                        <p class="text-muted">Undergraduate<br />&#8594;PhD Candidate, UC Berkeley</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/evan-spotte-smith/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/espottesmith"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_reesC.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Rees Chang</h4>
-                        <p class="text-muted">Undergraduate<br />&#8594;(continuing studies)</p>
-                        <ul class="list-inline social-buttons">
-                             <li><a href="https://www.linkedin.com/in/reeschang/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/rees-c"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_qiW.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Qi Wang</h4>
-                        <p class="text-muted">Postdoc Affiliate<br />&#8594;Postdoc, Johns Hopkins</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/Qi-max"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://www.researchgate.net/profile/Qi_Wang168"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_leighW.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Leigh Weston</h4>
-                        <p class="text-muted">Postdoc<br />&#8594;Machine learning scientist, Medium</p>
-                        <ul class="list-inline social-buttons">
-                        	<li><a href="https://www.linkedin.com/in/leigh-weston-29b029188/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/LeighWeston86"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=Apz3n-sAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_avniS.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Avni Singhal</h4>
-                        <p class="text-muted">Undergraduate Researcher<br />&#8594;(continuing studies)</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/avni-singhal"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/avnipriya"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_mattZ.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Matt Zhou</h4>
-                        <p class="text-muted">Undergraduate Researcher<br />&#8594;(continuing studies)</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://github.com/mattzh72"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_arsinehA.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Arsineh Apelian</h4>
-                        <p class="text-muted">Undergraduate Researcher<br />&#8594;PhD candidate, UCSB</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.researchgate.net/profile/Arsineh_Apelian"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/arsineh-apelian-876a32192/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_toddK.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Todd Karin</h4>
-                        <p class="text-muted">Project Scientist<br />&#8594;Technical head, PVEL</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/todd-karin"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/toddkarin"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=yKcOPUEAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_alexG.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Alex Ganose</h4>
-                        <p class="text-muted">Postdoctoral Scholar<br />&#8594;Professor, Imperial College London</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/alexganose/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://utf.github.io"><i class="fa fa-user"></i></a>
-                            </li>
-                            <li><a href="https://github.com/utf"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=nVJFXWwAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_junsooP.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Junsoo Park</h4>
-                        <p class="text-muted">Postdoctoral scholar<br />&#8594;Researcher, NASA Ames</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/junsoo-park-a57803125/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://www.researchgate.net/profile/Junsoo_Park7"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                            <li><a href="https://github.com/jsyony37"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_kevinY.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Kevin Yang</h4>
-                        <p class="text-muted">Undergraduate Researcher<br />&#8594;(continuing studies)</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/kevin-yang-56753b15a"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/kevinyang8"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_rishiK.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Rishi Kumar</h4>
-                        <p class="text-muted">Postdoctoral Scholar<br />&#8594;Senior Engineer, Oceanit</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/rekumar/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=nVzy5csAAAAJ&hl=en&oi=ao"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_nickW.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Nicholas Walker</h4>
-                        <p class="text-muted">Postdoctoral scholar<br />&#8594;ML Researcher, Meru</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/walkernr256/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/walkernr"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=QXNsLS4AAAAJ&hl=en&oi=sra"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_zhuoyingZ.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Zhuoying Zhu</h4>
-                        <p class="text-muted">Postdoctoral scholar<br />&#8594;Professor, USTC</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/zhuoying-zhu-871834a6/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/Zhuoying"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=QuRZRJoAAAAJ&hl=en&oi=ao"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                                <div class="col-lg-2 col-md-2 col-md-offset-0 col-sm-4 col-xs-4 text-center">
-                    <div class="team-member">
-                        <center><img src="media/team_alexD.jpg" class="img-responsive img-circle" alt="" width="80%"></center>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-md-offset-0 col-sm-8 col-xs-8">
-                        <h4>Alexander Dunn</h4>
-                        <p class="text-muted">Graduate Student Researcher<br /></p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/alexander-dunn-687719106"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/ardunn"><i class="fa fa-github-alt"></i></a>
-                            </li>
-                            <li><a href="https://scholar.google.com/citations?user=SqGIG_wAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-                            </li>
-                        </ul>
-                        <p>&nbsp;<br />&nbsp;</p>
-                </div>
-                
-                
-            </div>
-            
-        
-                
-    </section>    
-    
-    <section id="JOIN">
-        <div class="container">
-			<div class="col-md-8 col-md-offset-2 text-center">
-				<div class="row">
-					<div class="about_title wow fadeInUp animated">
-						<h2>Joining our group</h2>
-						<img src="media/shape.png" alt="">
-					</div>
-					<div class="col-md-10 col-md-offset-1 wow fadeInUp animated">					
-					    <!-- <p class="about_us_p"> There are currently no open positions available in the group.</p> -->
-					    <p class="about_us_p">We have one new postdoc-level position in AI-driven materials design available, starting immediately: <a href="https://jobs.lbl.gov/jobs/postdoctoral-scholar-ai-driven-materials-discovery-7200">apply here</a>.
-					    <!-- <p class="about_us_p">Current graduate students who are U.S. citizens or permanent residents can spend 3-12 months with us (funded) through the <a href="https://science.osti.gov/wdts/scgsr/">DOE SCGSR</a> program. Application due date is November 10, 2021. Contact us if you are planning to apply for our lab, but check the eligibility requirements first!</p> -->
-					    <p class="about_us_p">Undergraduate students interested in working with us should apply through the <a href="https://education.lbl.gov/internships/suli/">SULI</a> program and send us an email to let us know your interest. Application deadlines vary by term.</p>
-					    <p class="about_us_p">If you'd like to be notified of new openings, one option is to subscribe to our <a href="https://www.twitter.com/jainpapers">Twitter feed</a>. Tweets about job openings begin with the word "Announcement" and are deleted once the position is filled.</p>
-                    	<p class="about_us_p">If you're curious about what it is like to work in our group, you might consider reviewing our <a href="https://hackingmaterials.gitbook.io/hm-handbook/">group handbook</a>.</p>
-                	</div>
-            	</div>
-			</div>
-        </div>
+    </div>
     </section>
+    <script src="components/alumni.js"></script>
+        
+    
     
     <section id="MORE">
         <div class="container">
-        	<div class="row  wow fadeInUp animated">
+
+            <div class="row wow fadeInUp animated">
                 <div class="col-md-12 text-center">
                     <div class="about_title">
                         <h2>Explore what's new.</h2>
@@ -823,36 +260,95 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp">
+
+            <div class="explore-grid">
+
+                <div class="single_service wow fadeInUp">
+
+                    <a href="https://www.twitter.com/jainpapers">
                         <i class="fa fa-twitter"></i>
-                        <h2>Publication Tweets</h2>
-                        <p>Read bite-sized<a href="https://www.twitter.com/jainpapers"> paper summaries</a>.</p>
+                    </a>
+
+                    <h2>
+                        <a href="https://www.twitter.com/jainpapers">
+                            Publication Posts
+                        </a>
+                    </h2>
+
+                    <p>
+                        Read bite-sized
+                        <a href="https://www.twitter.com/jainpapers">
+                            paper summaries
+                        </a>.
+                    </p>
+
                 </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp">
+
+                <div class="single_service wow fadeInUp">
+
+                    <a href="https://github.com/hackingmaterials">
                         <i class="fa fa-github-alt"></i>
-                        <h2>Open-source software</h2>
-                        <p>Clone/fork from our <a href="https://github.com/hackingmaterials">Github page</a>.</p>
-                    </div>
+                    </a>
+
+                    <h2>
+                        <a href="https://github.com/hackingmaterials">
+                            Open-source software
+                        </a>
+                    </h2>
+
+                    <p>
+                        Clone or fork from our
+                        <a href="https://github.com/hackingmaterials">
+                            GitHub page
+                        </a>.
+                    </p>
+
                 </div>
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp">
-                        <i class="fa fa-slideshare"></i>
-                        <h2>Presentation slides</h2>
-                        <p>Review our <a href="https://www.slideshare.net/anubhavster/">presentation slides</a>.</p>
-                    </div>
+
+                <div class="single_service wow fadeInUp">
+
+                    <a href="https://hackingmaterials.gitbook.io/hm-handbook/">
+                        <i class="fa fa-book"></i>
+                    </a>
+
+                    <h2>
+                        <a href="https://hackingmaterials.gitbook.io/hm-handbook/">
+                            Group Handbook
+                        </a>
+                    </h2>
+
+                    <p>
+                        Explore the
+                        <a href="https://hackingmaterials.gitbook.io/hm-handbook/">
+                            group handbook
+                        </a>.
+                    </p>
+
                 </div>
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp">
-                        <i class="fa fa-wordpress"></i>
-                        <h2>Blog</h2>
-                        <p>Read the <a href="https://www.hackingmaterials.com">HackingMaterials blog</a>.</p>
-                    </div>
+
+                <div class="single_service wow fadeInUp">
+
+                    <a href="https://www.youtube.com/@AtomsToMaterials">
+                        <i class="fa fa-youtube-play"></i>
+                    </a>
+
+                    <h2>
+                        <a href="https://www.youtube.com/@AtomsToMaterials">
+                            YouTube Channel
+                        </a>
+                    </h2>
+
+                    <p>
+                        Watch talks on our
+                        <a href="https://www.youtube.com/@AtomsToMaterials">
+                            YouTube channel
+                        </a>.
+                    </p>
+
                 </div>
-            </div>            
+
+            </div>
+
         </div>
     </section>
 <footer>
@@ -862,19 +358,11 @@
                 		<p>The Hacking Materials group is located at Lawrence Berkeley National Laboratory in Berkeley, CA. </p>
                 		<p>Contact: ajain@lbl.gov</p>
                         <p>Web site design is a custom modification of a template written by the <a href="http://www.themeforest.net/user/thecodecafe"target="_blank">Code Cafe Team</a>.</p>
+                        <p>Thanks to Baojie Li for leading a site re-work for improved ease of maintenance!</p>
                 </div>
         </div>
     </div>
 </footer>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -899,7 +387,6 @@
   ga('send', 'pageview');
 
 	</script>
-
 
 
 

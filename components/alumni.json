@@ -1,0 +1,261 @@
+[   
+{
+"name":"Olympia Dartsi",
+"title":"Postdoctoral scholar",
+"photo":"team_olympiaD.jpg",
+"website":"https://odartsi.github.io",
+"linkedin":"https://www.linkedin.com/in/drolympiadartsi/",
+"github":"https://github.com/odartsi",
+"scholar":"https://www.scopus.com/authid/detail.uri?authorId=57201718184"
+},
+{
+    "name":"Rayna Hylden",
+    "title":"Undergraduate Researcher",
+    "photo":"team_raynaH.jpg",
+    "linkedin":"https://www.linkedin.com/in/raynahylden/"
+},
+{
+    "name":"Liam Joyce",
+    "title":"Undergraduate Researcher",
+    "photo":"team_liamJ.jpg",
+    "linkedin":"https://www.linkedin.com/in/liam-joyce-1a1789249/"
+},
+{
+"name":"Sanghoon Lee",
+"title":"Graduate Student Researcher",
+"photo":"team_sanghoonL.jpg",
+"linkedin":"https://www.linkedin.com/in/sanghoon-lee-b5a420149/",
+"github":"https://github.com/slee-lab"
+},
+{
+"name":"Jinwon Cho",
+"title":"Postdoctoral scholar – Electrochemical Water Treatment",
+"photo":"team_jinwonC.jpg",
+"linkedin":"https://www.linkedin.com/in/jinwon-c-16552732/",
+"scholar":"https://scholar.google.com/citations?user=rj28_FUAAAAJ&hl=en"
+},
+{
+"name":"Duo Wang",
+"title":"Postdoctoral Scholar",
+"photo":"team_duoW.jpg",
+"linkedin":"https://www.linkedin.com/in/itsshawnzhang/",
+"github":"https://github.com/itsshawnzhang",
+"scholar":"https://scholar.google.com/citations?user=HKpRhZ8AAAAJ&hl=en&oi=sra"
+},
+{
+"name":"Viktoriia Baibakova",
+"title":"Graduate Student Researcher",
+"photo":"team_viktoriiaB.jpg",
+"linkedin":"https://www.linkedin.com/in/viktoriia-baibakova-b2bba9231",
+"github":"https://github.com/ViktoriiaBaib",
+"scholar":"https://www.researchgate.net/profile/Viktoriia_Baibakova"
+},
+{
+"name":"Xin Chen",
+"title":"Graduate Student Researcher",
+"photo":"team_xinC.jpg",
+"github":"https://github.com/X-Chen97",
+"scholar":"https://scholar.google.com/citations?hl=en&user=jsF7U6IAAAAJ"
+},
+{
+    "name":"Alexander Dunn",
+    "title":"Graduate Student Researcher",
+    "photo":"team_alexD.jpg",
+    "linkedin":"https://www.linkedin.com/in/alexander-dunn-687719106",
+    "github":"https://github.com/ardunn",
+    "scholar":"https://scholar.google.com/citations?user=SqGIG_wAAAAJ&hl=en"
+},
+{
+    "name":"Zhuoying Zhu",
+    "title":"Postdoctoral scholar → Professor, USTC",
+    "photo":"team_zhuoyingZ.jpg",
+    "linkedin":"https://www.linkedin.com/in/zhuoying-zhu-871834a6/",
+    "github":"https://github.com/Zhuoying",
+    "scholar":"https://scholar.google.com/citations?user=QuRZRJoAAAAJ&hl=en"
+},
+{
+    "name":"Nicholas Walker",
+    "title":"Postdoctoral scholar → ML Researcher, Meru",
+    "photo":"team_nickW.jpg",
+    "linkedin":"https://www.linkedin.com/in/walkernr256/",
+    "github":"https://github.com/walkernr",
+    "scholar":"https://scholar.google.com/citations?user=QXNsLS4AAAAJ&hl=en&oi=sra"
+},
+{
+    "name":"Rishi Kumar",
+    "title":"Postdoctoral Scholar → Senior Engineer, Oceanit",
+    "photo":"team_rishiK.jpg",
+    "linkedin":"https://www.linkedin.com/in/rekumar/",
+    "scholar":"https://scholar.google.com/citations?user=nVzy5csAAAAJ&hl=en&oi=ao"
+},
+{
+    "name":"Kevin Yang",
+    "title":"Undergraduate Researcher → (continuing studies)",
+    "photo":"team_kevinY.jpg",
+    "linkedin":"https://www.linkedin.com/in/kevin-yang-56753b15a",
+    "github":"https://github.com/kevinyang8"
+},
+{
+    "name":"Junsoo Park",
+    "title":"Postdoctoral scholar → Researcher, NASA Ames",
+    "photo":"team_junsooP.jpg",
+    "linkedin":"https://www.linkedin.com/in/junsoo-park-a57803125/",
+    "github":"https://github.com/jsyony37",
+    "scholar":"https://www.researchgate.net/profile/Junsoo_Park7"
+},
+{
+    "name":"Alex Ganose",
+    "title":"Postdoctoral Scholar → Professor, Imperial College London",
+    "photo":"team_alexG.jpg",
+    "linkedin":"https://www.linkedin.com/in/alexganose/",
+    "website":"https://utf.github.io",
+    "github":"https://github.com/utf",
+    "scholar":"https://scholar.google.com/citations?user=nVJFXWwAAAAJ&hl=en"
+},
+{
+    "name":"Todd Karin",
+    "title":"Project Scientist → Technical head, PVEL",
+    "photo":"team_toddK.jpg",
+    "linkedin":"https://www.linkedin.com/in/todd-karin",
+    "github":"https://github.com/toddkarin",
+    "scholar":"https://scholar.google.com/citations?user=yKcOPUEAAAAJ&hl=en"
+},
+{
+    "name":"Arsineh Apelian",
+    "title":"Undergraduate Researcher → PhD candidate, UCSB",
+    "photo":"team_arsinehA.jpg",
+    "linkedin":"https://www.linkedin.com/in/arsineh-apelian-876a32192/",
+    "scholar":"https://www.researchgate.net/profile/Arsineh_Apelian"
+},
+{
+    "name":"Matt Zhou",
+    "title":"Undergraduate Researcher → (continuing studies)",
+    "photo":"team_mattZ.jpg",
+    "github":"https://github.com/mattzh72"
+},
+{
+    "name":"Avni Singhal",
+    "title":"Undergraduate Researcher → (continuing studies)",
+    "photo":"team_avniS.jpg",
+    "linkedin":"https://www.linkedin.com/in/avni-singhal",
+    "github":"https://github.com/avnipriya"
+},
+{
+    "name":"Leigh Weston",
+    "title":"Postdoc → Machine learning scientist, Medium",
+    "photo":"team_leighW.jpg",
+    "linkedin":"https://www.linkedin.com/in/leigh-weston-29b029188/",
+    "github":"https://github.com/LeighWeston86",
+    "scholar":"https://scholar.google.com/citations?user=Apz3n-sAAAAJ&hl=en"
+},
+{
+    "name":"Qi Wang",
+    "title":"Postdoc Affiliate → Postdoc, Johns Hopkins",
+    "photo":"team_qiW.jpg",
+    "github":"https://github.com/Qi-max",
+    "scholar":"https://www.researchgate.net/profile/Qi_Wang168"
+},
+{
+    "name":"Rees Chang",
+    "title":"Undergraduate → (continuing studies)",
+    "photo":"team_reesC.jpg",
+    "linkedin":"https://www.linkedin.com/in/reeschang/",
+    "github":"https://github.com/rees-c"
+},
+{
+    "name":"Evan Spotte-Smith",
+    "title":"Undergraduate → PhD Candidate, UC Berkeley",
+    "photo":"team_evanS.jpg",
+    "linkedin":"https://www.linkedin.com/in/evan-spotte-smith/",
+    "github":"https://github.com/espottesmith"
+},
+{
+    "name":"Samy Cherfaoui",
+    "title":"Undergraduate → (continuing studies)",
+    "photo":"team_samyC.jpg",
+    "website":"https://samysspace.github.io",
+    "github":"https://github.com/samysspace"
+},
+{
+    "name":"Peiyuan Yu",
+    "title":"Postdoc → Professor, SUSTech Shenzhen",
+    "photo":"team_peiyuanY.jpg",
+    "linkedin":"https://www.linkedin.com/in/peiyuan-yu-b7842086/",
+    "github":"https://github.com/peiyuan-yu",
+    "scholar":"https://scholar.google.com/citations?user=elGYBSwAAAAJ&hl=en"
+},
+{
+    "name":"Daniel Dopp",
+    "title":"Undergraduate → (continuing studies)",
+    "photo":"team_danielD.jpg",
+    "linkedin":"https://www.linkedin.com/in/daniel-dopp-90447ab7/",
+    "github":"https://github.com/hackingmaterials/matminer/pulls/Doppe1g4nger"
+},
+{
+    "name":"Alireza Faghaninia",
+    "title":"Postdoc → Data Scientist, Credit Karma",
+    "photo":"team_alirezaF.jpg",
+    "linkedin":"https://www.linkedin.com/in/alireza-faghaninia-79804981",
+    "github":"https://github.com/albalu",
+    "scholar":"https://scholar.google.com/citations?user=rmcAU7sAAAAJ&hl=en"
+},
+{
+    "name":"Hillary Pan",
+    "title":"Undergraduate → PhD candidate, Cornell University",
+    "photo":"team_hillaryP.jpg",
+    "github":"https://github.com/hillarypan"
+},
+{
+    "name":"Ben Ellis",
+    "title":"Postdoc → Data Scientist, Sauce Labs",
+    "photo":"team_benE.jpg",
+    "linkedin":"https://www.linkedin.com/in/benjamin-ellis-phd-9238841b/",
+    "github":"https://github.com/bhellis725",
+    "scholar":"https://scholar.google.com.au/citations?user=wEWLAzgAAAAJ&hl=en"
+},
+{
+    "name":"Nils Zimmermann",
+    "title":"Postdoc → (parent)",
+    "photo":"team_nilsZ.jpg",
+    "linkedin":"https://www.linkedin.com/in/nils-zimmermann-22656372",
+    "website":"http://nisseshem.de",
+    "github":"https://github.com/nisse3000",
+    "scholar":"https://scholar.google.com/citations?user=S_NflkQAAAAJ&hl=en"
+},
+{
+    "name":"Julien Brenneck",
+    "title":"Undergraduate → (continuing studies)",
+    "photo":"team_julienB.jpg",
+    "linkedin":"https://www.linkedin.com/in/julien-brenneck-66bb4a128",
+    "github":"https://github.com/spacedome"
+},
+{
+    "name":"Michael Kim",
+    "title":"Undergraduate → (continuing studies)",
+    "photo":"team_michaelK.jpg",
+    "linkedin":"https://www.linkedin.com/in/michael-kim-383143bb",
+    "github":"https://github.com/MikeSphx"
+},
+{
+    "name":"Sayan Rowchowdhury",
+    "title":"Undergraduate → PhD candidate, Duke University",
+    "photo":"team_sayanR.jpg",
+    "linkedin":"https://www.linkedin.com/in/sayan-roychowdhury-87a3a3ba",
+    "github":"https://github.com/sayanroyc"
+},
+{
+    "name":"Jason Frost",
+    "title":"Undergraduate → Synapse Energy Economics",
+    "photo":"team_jasonF.jpg",
+    "linkedin":"https://www.linkedin.com/in/jason-frost-309164b6",
+    "github":"https://github.com/jhfrost314"
+},
+{
+"name":"Saurabh Bajaj",
+"title":"Postdoc → Data Engineer, Citrine Informatics",
+"photo":"team_saurabhB.jpg",
+"linkedin":"https://www.linkedin.com/in/saurabh-bajaj-12426619",
+"github":"https://github.com/saurabh02",
+"scholar":"https://scholar.google.com/citations?user=jpoJY4gAAAAJ&hl=en"
+}
+]
