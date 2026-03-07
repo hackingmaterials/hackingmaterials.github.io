@@ -1,5 +1,7 @@
 .latest-updates-bluesky {
   margin-top: 20px;
+  clear: both;
+  width: 100%;
 }
 
 .latest-updates-bluesky .bluesky-link {
