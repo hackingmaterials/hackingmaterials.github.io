@@ -672,7 +672,7 @@ grid-template-columns:1fr;
 }
 
 @media (max-width:768px){
-    .publication-logos img{
-        max-width:10px;
+    .publication-grid .publication-logo{
+        max-width:120px;
     }
 }
