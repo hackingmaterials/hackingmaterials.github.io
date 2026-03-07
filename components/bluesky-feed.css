@@ -1,5 +1,47 @@
+.latest-updates-bluesky {
+  margin-top: 20px;
+}
+
+.latest-updates-bluesky .bluesky-link {
+  justify-content: center;
+}
+
+.bluesky-scroll-centered {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.bluesky-scroll-centered .feed {
+  max-width: 600px;
+}
+
+.latest-updates-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 28px;
+}
+
+.latest-updates-cards .social-card {
+  max-width: 240px;
+  font-size: 15px;
+}
+
+.latest-updates-cards .social-card a {
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .latest-updates-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .feed{
-max-width:600px;
+max-width:100%;
 background:white;
 border-radius:12px;
 overflow:hidden;
