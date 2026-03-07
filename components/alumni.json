@@ -1,4 +1,4 @@
-[
+[   
 {
 "name":"Olympia Dartsi",
 "title":"Postdoctoral scholar – Natural language processing",
@@ -7,6 +7,18 @@
 "linkedin":"https://www.linkedin.com/in/drolympiadartsi/",
 "github":"https://github.com/odartsi",
 "scholar":"https://www.scopus.com/authid/detail.uri?authorId=57201718184"
+},
+{
+    "name":"Rayna Hylden",
+    "title":"Undergraduate Researcher",
+    "photo":"team_raynaH.jpg",
+    "linkedin":"https://www.linkedin.com/in/raynahylden/"
+},
+{
+    "name":"Liam Joyce",
+    "title":"Undergraduate Researcher",
+    "photo":"team_liamJ.jpg",
+    "linkedin":"https://www.linkedin.com/in/liam-joyce-1a1789249/"
 },
 {
 "name":"Sanghoon Lee",
