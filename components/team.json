@@ -35,5 +35,19 @@
 "photo":"team_hrushikeshS.jpg",
 "github":"https://github.com/hrushikesh-s",
 "scholar":"https://scholar.google.com/citations?user=Ukq_tbUAAAAJ&hl=en"
+},
+
+{
+"name":"Alison Rhoads",
+"title":"Undergraduate Researcher",
+"photo":"team_alisonR.jpg",
+"linkedin":"https://www.linkedin.com/in/alison-rhoads-7251621b6/"
+},
+
+{
+"name":"Wesley Chen",
+"title":"Undergraduate Researcher",
+"photo":"team_wesleyC.jpg",
+"linkedin":"https://www.linkedin.com/in/wesley-chen-126467217/"
 }
 ]
