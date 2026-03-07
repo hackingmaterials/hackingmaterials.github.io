@@ -41,13 +41,16 @@
 "name":"Alison Rhoads",
 "title":"Undergraduate Researcher",
 "photo":"team_alisonR.jpg",
-"linkedin":"https://www.linkedin.com/in/alison-rhoads-7251621b6/"
+"linkedin":"https://www.linkedin.com/in/alison-rhoads-7251621b6/",
+"scholar": "https://scholar.google.com/citations?user=rHilJjIAAAAJ&hl=en"
 },
 
 {
 "name":"Wesley Chen",
 "title":"Undergraduate Researcher",
 "photo":"team_wesleyC.jpg",
-"linkedin":"https://www.linkedin.com/in/wesley-chen-126467217/"
+"linkedin":"https://www.linkedin.com/in/wesley-chen-126467217/",
+"scholar": "https://scholar.google.com/citations?user=qan06sUAAAAJ&hl=en&oi=ao",
+"github": "https://github.com/wesleychen-github"
 }
 ]
