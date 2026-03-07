@@ -25,6 +25,10 @@ if(member.scholar){
 buttons+=`<li><a href="${member.scholar}"><i class="fa fa-graduation-cap"></i></a></li>`
 }
 
+if(member.youtube){
+buttons+=`<li><a href="${member.youtube}" target="_blank"><i class="fa fa-youtube-play"></i></a></li>`
+}
+
 return buttons
 }
 
