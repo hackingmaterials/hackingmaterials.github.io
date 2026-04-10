@@ -13,7 +13,7 @@
 
 {
 "name":"Baojie Li",
-"title":"Postdoctoral scholar – Data mining of solar PV data sets",
+"title":"Postdoctoral scholar",
 "photo":"team_baojieL.jpg",
 "linkedin":"https://www.linkedin.com/in/%E4%BF%9D%E6%9D%B0-%E6%9D%8E-a3a256aa/?locale=en-US",
 "github":"https://github.com/lbj2011",
@@ -31,7 +31,7 @@
 
 {
 "name":"Hrushikesh Sahasrabuddhe",
-"title":"Graduate Student Researcher – Materials machine learning",
+"title":"Graduate Student Researcher",
 "photo":"team_hrushikeshS.jpg",
 "github":"https://github.com/hrushikesh-s",
 "scholar":"https://scholar.google.com/citations?user=Ukq_tbUAAAAJ&hl=en"
@@ -51,5 +51,17 @@
 "linkedin":"https://www.linkedin.com/in/wesley-chen-126467217/",
 "scholar": "https://scholar.google.com/citations?user=qan06sUAAAAJ&hl=en&oi=ao",
 "github": "https://github.com/wesleychen-github"
+},
+{"name":"Darren Chin",
+"title":"Undergraduate Researcher",
+"photo":"team_darrenC.jpg",
+"linkedin":"https://www.linkedin.com/in/darrenchin25",
+"github":"https://github.com/hungrychen",
+"scholar":"https://scholar.google.com/citations?user=axNFc-MAAAAJ&hl=en"
+},
+{"name":"Neel Agrawal",
+"title":"Undergraduate Researcher",
+"photo":"team_generic.jpg",
+"linkedin":"https://www.linkedin.com/in/neel-agrawal-2980051b7/"
 }
 ]
