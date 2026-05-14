@@ -1,7 +1,7 @@
 [
 {
 "name":"Anubhav Jain",
-"title":"Group Lead",
+"title":"PI / Group Lead",
 "photo":"team_anubhavJ.jpg",
 "website":"https://computron.github.io",
 "linkedin":"https://www.linkedin.com/in/anubhav-jain-a1614636b/",
@@ -13,7 +13,7 @@
 
 {
 "name":"Baojie Li",
-"title":"Postdoctoral scholar",
+"title":"Postdoc",
 "photo":"team_baojieL.jpg",
 "linkedin":"https://www.linkedin.com/in/%E4%BF%9D%E6%9D%B0-%E6%9D%8E-a3a256aa/?locale=en-US",
 "github":"https://github.com/lbj2011",
@@ -22,7 +22,7 @@
 
 {
 "name":"Zekun Chen",
-"title":"Postdoctoral scholar",
+"title":"Postdoc",
 "photo":"team_zekunC.jpg",
 "linkedin":"https://www.linkedin.com/in/zekun-chen-bill-73b509126/",
 "github":"https://github.com/ZKC19940412",
@@ -31,7 +31,7 @@
 
 {
 "name":"Hrushikesh Sahasrabuddhe",
-"title":"Graduate Student Researcher",
+"title":"PhD candidate",
 "photo":"team_hrushikeshS.jpg",
 "github":"https://github.com/hrushikesh-s",
 "scholar":"https://scholar.google.com/citations?user=Ukq_tbUAAAAJ&hl=en"
@@ -39,28 +39,28 @@
 
 {
 "name":"Alison Rhoads",
-"title":"Undergraduate Researcher",
+"title":"Undergraduate",
 "photo":"team_alisonR.jpg",
 "linkedin":"https://www.linkedin.com/in/alison-rhoads-7251621b6/",
 "scholar": "https://scholar.google.com/citations?user=rHilJjIAAAAJ&hl=en"
 },
 {
 "name":"Wesley Chen",
-"title":"Undergraduate Researcher",
+"title":"Undergraduate",
 "photo":"team_wesleyC.jpg",
 "linkedin":"https://www.linkedin.com/in/wesley-chen-126467217/",
 "scholar": "https://scholar.google.com/citations?user=qan06sUAAAAJ&hl=en&oi=ao",
 "github": "https://github.com/wesleychen-github"
 },
 {"name":"Darren Chin",
-"title":"Undergraduate Researcher",
+"title":"Undergraduate",
 "photo":"team_darrenC.jpg",
 "linkedin":"https://www.linkedin.com/in/darrenchin25",
 "github":"https://github.com/hungrychen",
 "scholar":"https://scholar.google.com/citations?user=axNFc-MAAAAJ&hl=en"
 },
 {"name":"Neel Agrawal",
-"title":"Undergraduate Researcher",
+"title":"Undergraduate",
 "photo":"team_generic.jpg",
 "linkedin":"https://www.linkedin.com/in/neel-agrawal-2980051b7/"
 }
