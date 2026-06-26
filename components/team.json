@@ -30,6 +30,16 @@
 },
 
 {
+"name":"Habibur Rahman",
+"title":"Postdoc",
+"photo":"team_habiburR.jpg",
+"website":"https://msehabibur.github.io/",
+"linkedin":"https://www.linkedin.com/in/habibur-rahman-918466411/",
+"github":"https://github.com/msehabibur/",
+"scholar":"https://scholar.google.com/citations?user=vkAPzB0AAAAJ&hl=en&authuser=1"
+},
+
+{
 "name":"Hrushikesh Sahasrabuddhe",
 "title":"PhD candidate",
 "photo":"team_hrushikeshS.jpg",
@@ -59,9 +69,27 @@
 "github":"https://github.com/hungrychen",
 "scholar":"https://scholar.google.com/citations?user=axNFc-MAAAAJ&hl=en"
 },
-{"name":"Neel Agrawal",
+{
+"name":"Nishanth Koushik",
 "title":"Undergraduate",
-"photo":"team_generic.jpg",
-"linkedin":"https://www.linkedin.com/in/neel-agrawal-2980051b7/"
+"photo":"team_nishanthK.jpg",
+"linkedin":"https://www.linkedin.com/in/nishanth-koushik/",
+"github":"https://github.com/nkfire11/Nishanth-Koushik-s-Portfolio"
+},
+{
+"name":"Ruby Keesey",
+"title":"Undergraduate",
+"photo":"team_rubyK.jpg",
+"linkedin":"https://www.linkedin.com/in/ruby-keesey-871309246/",
+"github":"https://github.com/rkeesey",
+"scholar":"https://scholar.google.com/citations?user=4BeggCcAAAAJ&hl=en&oi=ao"
+},
+{
+"name":"Amelia Fargason",
+"title":"Undergraduate",
+"photo":"team_ameliaF.jpg",
+"linkedin":"https://www.linkedin.com/in/ameliafargason",
+"github":"https://github.com/amelia-codes",
+"scholar":"https://scholar.google.com/citations?user=4MqFGQwAAAAJ&hl=en"
 }
 ]
