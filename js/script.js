@@ -58,10 +58,10 @@ new WOW().init();
     
 /*Preloader*/
 //<![CDATA[
-$(window).load(function() { // makes sure the whole site is loaded
+$(function() { // show the page once the HTML is ready; images keep loading behind it
   $('#status').fadeOut(); // will first fade out the loading animation
-  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-  $('body').delay(350).css({'overflow':'visible'});
+  $('#preloader').fadeOut(200); // will fade out the white DIV that covers the website.
+  $('body').css({'overflow':'visible'});
 })
 //]]>
 

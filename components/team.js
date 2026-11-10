@@ -36,7 +36,7 @@ return buttons
 let piHTML = `
 <div class="team-card team-pi-card">
 
-<img src="media/${pi.photo}" class="team-photo team-photo-pi">
+<img loading="lazy" decoding="async" src="media/${pi.photo}" class="team-photo team-photo-pi">
 
 <h4>${pi.name}</h4>
 
@@ -59,7 +59,7 @@ others.forEach(member=>{
 html+=`
 <div class="team-card">
 
-<img src="media/${member.photo}" class="team-photo">
+<img loading="lazy" decoding="async" src="media/${member.photo}" class="team-photo">
 
 <h4>${member.name}</h4>
 

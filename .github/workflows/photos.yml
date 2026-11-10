@@ -1,0 +1,36 @@
+name: Make web photos
+
+# When a photo is added or replaced in _raw/, build its web version in media/ and commit it.
+on:
+  push:
+    branches: [master]
+    paths: ["_raw/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow==11.3.0
+      - name: Resize the photos changed in this push
+        run: |
+          git diff --name-only --diff-filter=AM "${{ github.event.before }}" "${{ github.sha }}" -- _raw/ > changed.txt || git ls-files _raw/ > changed.txt
+          grep -iE '\.(jpe?g|png|webp)$' changed.txt > photos.txt || true
+          if [ -s photos.txt ]; then tr '\n' '\0' < photos.txt | xargs -0 python tools/make_photo.py; fi
+      - name: Commit the web versions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add media/
+          if ! git diff --cached --quiet; then
+            git commit -m "Make web photos from _raw"
+            git push
+          fi

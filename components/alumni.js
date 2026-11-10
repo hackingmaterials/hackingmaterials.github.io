@@ -32,7 +32,7 @@ data.forEach(person=>{
 html+=`
 <div class="team-card">
 
-<img src="media/${person.photo}" class="alumni-photo">
+<img loading="lazy" decoding="async" src="media/${person.photo}" class="alumni-photo">
 
 <h4>${person.name}</h4>
 
